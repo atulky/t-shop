@@ -1,0 +1,55 @@
+
+#buttons{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.table-container {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+h2{
+    margin-top: 70px;
+    text-align: center;
+    color: green;
+}
+
+
+.table {
+width: 100%;
+border-collapse: collapse;
+margin: 50px auto;
+box-shadow: 0px 0px 10px 2px #ccc;
+
+}
+
+th, td {
+border: 1px solid #333;
+padding: 8px;
+text-align: left;
+font-size: 16px;
+}
+
+th {
+background-color: #f0f0f0;
+font-weight: bold;
+color: #333;
+}
+
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+tr:hover {
+background-color: #ddd;
+}
+
+caption {
+padding: 10px;
+caption-side: bottom;
+font-size: 20px;
+font-weight: bold;
+color: #333;
+}
